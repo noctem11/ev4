@@ -1,0 +1,41 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+env/
+venv/
+.venv/
+
+# Django
+*.sqlite3
+media/
+local_settings.py
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+
+# Python testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Node (si aplica)
+node_modules/
+
+# Logs
+*.log
+nv/
+nv/Lib/site-packages/sqlparse-0.5.3.dist-info/licenses/LICENSE
+nv/Lib/site-packages/sqlparse/
+nv/Lib/site-packages/tzdata-2025.2.dist-info/
+nv/Lib/site-packages/tzdata/
